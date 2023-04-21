@@ -1,0 +1,31 @@
+{
+    "name": "timwassenburg/laravel-artisan-extender",
+    "description": "A collection of generators for Laravel",
+    "keywords": ["generator", "php", "cli", "laravel", "artisan", "action", "service", "pattern", "respository"],
+    "homepage": "https://github.com/timwassenburg/laravel-artisan-extender",
+    "license": "MIT",
+    "require": {
+        "timwassenburg/laravel-repository-generator": "^v1.0.0",
+        "timwassenburg/laravel-service-generator": "^v1.0.0",
+        "timwassenburg/laravel-action-generator": "^v1.0.0",
+        "timwassenburg/laravel-pivot-table-generator": "^v1.0.0",
+        "timwassenburg/laravel-trait-generator": "^v1.0.0"
+    },
+    "authors": [
+        {
+            "name": "Tim Wassenburg"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TimWassenburg\\ArtisanExtender\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ArtisanExtenderServiceProvider"
+            ]
+        }
+    }
+}
