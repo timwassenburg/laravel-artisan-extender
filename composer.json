@@ -24,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ArtisanExtenderServiceProvider"
+                "TimWassenburg\\ArtisanExtender\\ArtisanExtenderServiceProvider"
             ]
         }
     }
