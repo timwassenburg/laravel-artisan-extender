@@ -7,7 +7,7 @@
 <h1 align="center">Laravel Artisan Extender</h1>
 
   <p align="center">
-    A collection of generator packages to quickly generate services, actions, repositories, pivot tables, and traits for your projects!
+    A collection of packages to quickly generate services, actions, repositories, pivot tables, and traits for your Laravel projects!
   </p>
 <br><br>
 </div>
@@ -54,14 +54,14 @@ Optionally, you can add multiple method names (seperated by comma) with the ```-
 php artisan make:service UserService --methods=register,login,logout
 ```
 
-[Click here to learn more about the Service Generator](https://github.com/timwassenburg/laravel-service-generator)
+[Learn more about the Service Generator](https://github.com/timwassenburg/laravel-service-generator)
 
 ### Generate actions
 Run the following command on the command-line to generate a new action.
 ```bash
 php artisan make:action {name}
 ```
-[Click here to learn more about the Action Generator](https://github.com/timwassenburg/laravel-action-generator)
+[Learn more about the Action Generator](https://github.com/timwassenburg/laravel-action-generator)
 
 ### Generate repositories
 Run the following command.
@@ -73,7 +73,7 @@ This example will generate the following files:
 app\Repositories\Eloquent\UserRepository
 app\Repositories\UserRepositoryInterface
 ```
-[Click here to learn more about the Repository Generator](https://github.com/timwassenburg/laravel-repository-generator)
+[Learn more about the Repository Generator](https://github.com/timwassenburg/laravel-repository-generator)
 
 ### Generate traits
 Run the following command on the command-line to generate a new trait.
@@ -82,7 +82,7 @@ php artisan make:trait {name}
 ```
 Optionally, you can add multiple method names (seperated by comma) with the ```--methods``` param.
 
-[Click here to learn more about the Trait Generator](https://github.com/timwassenburg/laravel-trait-generator)
+[Learn more about the Trait Generator](https://github.com/timwassenburg/laravel-trait-generator)
 
 ```bash
 php artisan make:trait Notifiable --methods=notify,notifications
@@ -98,7 +98,7 @@ The command will create a new migration in ```database/migrations```. Run the mi
 ```bash
 php artisan migrate
 ```
-[Click here to learn more about the Pivot Table Generator](https://github.com/timwassenburg/laravel-pivot-table-generator)
+[Learn more about the Pivot Table Generator](https://github.com/timwassenburg/laravel-pivot-table-generator)
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
