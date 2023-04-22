@@ -1,20 +1,10 @@
-<br />
-<div align="center">
-  <a href="https://github.com/timwassenburg/laravel-artisan-extender">
-    <img src="img/wrench.png" alt="Logo" width=120>
-  </a>
-
-<h1 align="center">Laravel Artisan Extender</h1>
-
-  <p align="center">
-    A collection of packages to quickly generate services, actions, repositories, pivot tables, and traits for your Laravel projects!
-  </p>
-<br><br>
-</div>
+<img src="img/banner.png" alt="Logo">
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/timwassenburg/laravel-artisan-extender.svg?style=flat-square)](https://packagist.org/packages/timwassenburg/laravel-artisan-extender)
 [![Total Downloads](https://img.shields.io/packagist/dt/timwassenburg/laravel-artisan-extender.svg?style=flat-square)](https://packagist.org/packages/timwassenburg/laravel-artisan-extender)
 [![License](https://img.shields.io/packagist/l/timwassenburg/laravel-artisan-extender)](https://packagist.org/packages/timwassenburg/laravel-artisan-extender)
+
+<hr>
 
 ## Table of Contents
   <ol>
